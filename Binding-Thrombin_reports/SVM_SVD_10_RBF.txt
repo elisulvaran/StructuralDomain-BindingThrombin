@@ -1,0 +1,56 @@
+**********        EVALUATION REPORT     **********
+Classifier: SVM
+Dimensionality reduction: SVD, with 10 principal components.
+Method to make training data positive: None
+Training best score : 0.9816644122574042
+Accuracy: 0.7413249211356467
+Precision: 0.7097839439212881
+Recall: 0.7413249211356467
+F-score: 0.7197676356744676
+
+Confusion matrix: 
+[[ 41 109]
+ [ 55 429]]
+
+Classification report: 
+              precision    recall  f1-score   support
+
+           A       0.43      0.27      0.33       150
+           I       0.80      0.89      0.84       484
+
+    accuracy                           0.74       634
+   macro avg       0.61      0.58      0.59       634
+weighted avg       0.71      0.74      0.72       634
+
+Best parameters: 
+	C: 2.8050305252832213
+	break_ties: False
+	cache_size: 200
+	class_weight: None
+	coef0: 0.0
+	decision_function_shape: 'ovr'
+	degree: 3
+	gamma: 'scale'
+	kernel: 'rbf'
+	max_iter: -1
+	probability: False
+	random_state: None
+	shrinking: True
+	tol: 0.001
+	verbose: False
+Number of support vectors per class: 
+[ 40 113]
+Support vectors: 
+[[ 1.66341065e+01 -9.43214350e+00  6.83852089e+00 ...  4.80771976e-01
+   6.25606833e+00 -5.02146080e+00]
+ [ 4.66262080e+01  9.24516980e+01  1.20245721e+01 ...  8.82106556e+00
+   3.38707779e+00 -9.88491944e-01]
+ [ 3.00859034e+00 -7.75938077e-01 -1.40393403e+00 ... -2.16505501e+00
+  -4.43662734e-01  7.38849428e-01]
+ ...
+ [ 1.80425691e+01 -9.55302147e+00  8.02394538e+00 ... -2.44051027e+00
+   8.03449055e+00  3.88091042e-01]
+ [ 2.36350683e+01  1.92269840e+01 -4.47015182e-02 ... -1.16694565e+01
+   4.31081872e+00 -1.07072828e+01]
+ [ 1.06128366e+01 -5.16571030e+00 -4.09293803e+00 ...  6.12411736e+00
+   5.42026227e+00 -1.01057369e+00]]

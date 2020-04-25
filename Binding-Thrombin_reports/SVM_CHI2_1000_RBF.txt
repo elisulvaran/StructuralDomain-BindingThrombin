@@ -1,0 +1,94 @@
+**********        EVALUATION REPORT     **********
+Classifier: SVM
+Feature selection: CHI2, with k=1000.
+Method to make training data positive: None
+Training best score : 0.9779989402630912
+Accuracy: 0.7634069400630915
+Precision: 0.5827901561364925
+Recall: 0.7634069400630915
+F-score: 0.6609820375501544
+
+Confusion matrix: 
+[[  0 150]
+ [  0 484]]
+
+Classification report: 
+              precision    recall  f1-score   support
+
+           A       0.00      0.00      0.00       150
+           I       0.76      1.00      0.87       484
+
+    accuracy                           0.76       634
+   macro avg       0.38      0.50      0.43       634
+weighted avg       0.58      0.76      0.66       634
+
+Best parameters: 
+	C: 48.67149466653312
+	break_ties: False
+	cache_size: 200
+	class_weight: 'balanced'
+	coef0: 0.0
+	decision_function_shape: 'ovr'
+	degree: 3
+	gamma: 'scale'
+	kernel: 'rbf'
+	max_iter: -1
+	probability: False
+	random_state: None
+	shrinking: True
+	tol: 0.001
+	verbose: False
+Number of support vectors per class: 
+[ 42 417]
+Support vectors: 
+  (0, 0)	0.0
+  (0, 1)	0.0
+  (0, 2)	0.0
+  (0, 3)	0.0
+  (0, 4)	0.0
+  (0, 5)	0.0
+  (0, 6)	0.0
+  (0, 7)	0.0
+  (0, 8)	0.0
+  (0, 9)	0.0
+  (0, 10)	0.0
+  (0, 11)	0.0
+  (0, 12)	0.0
+  (0, 13)	0.0
+  (0, 14)	0.0
+  (0, 15)	0.0
+  (0, 16)	0.0
+  (0, 17)	0.0
+  (0, 18)	0.0
+  (0, 19)	0.0
+  (0, 20)	0.0
+  (0, 21)	0.0
+  (0, 22)	0.0
+  (0, 23)	0.0
+  (0, 24)	0.0
+  :	:
+  (458, 975)	0.0
+  (458, 976)	0.0
+  (458, 977)	0.0
+  (458, 978)	0.0
+  (458, 979)	0.0
+  (458, 980)	0.0
+  (458, 981)	0.0
+  (458, 982)	0.0
+  (458, 983)	0.0
+  (458, 984)	0.0
+  (458, 985)	0.0
+  (458, 986)	0.0
+  (458, 987)	0.0
+  (458, 988)	0.0
+  (458, 989)	0.0
+  (458, 990)	0.0
+  (458, 991)	0.0
+  (458, 992)	0.0
+  (458, 993)	0.0
+  (458, 994)	0.0
+  (458, 995)	0.0
+  (458, 996)	0.0
+  (458, 997)	0.0
+  (458, 998)	0.0
+  (458, 999)	0.0
