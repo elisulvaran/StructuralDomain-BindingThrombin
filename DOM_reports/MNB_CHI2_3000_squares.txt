@@ -1,0 +1,28 @@
+**********        EVALUATION REPORT     **********
+Classifier: MultinomialNB
+Feature selection: CHI2, with k=3000.
+Method to make training data positive: Squares
+Training best score : 0.9348710852445004
+Accuracy: 0.9329359165424739
+Precision: 0.9313867118776568
+Recall: 0.9329359165424739
+F-score: 0.9319857185146176
+
+Confusion matrix: 
+[[ 79  26]
+ [ 19 547]]
+
+Classification report: 
+              precision    recall  f1-score   support
+
+         DOM       0.81      0.75      0.78       105
+       OTHER       0.95      0.97      0.96       566
+
+    accuracy                           0.93       671
+   macro avg       0.88      0.86      0.87       671
+weighted avg       0.93      0.93      0.93       671
+
+Best parameters: 
+	alpha: 1.1591041806253328
+	class_prior: None
+	fit_prior: True

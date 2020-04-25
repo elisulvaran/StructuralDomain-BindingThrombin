@@ -1,0 +1,94 @@
+**********        EVALUATION REPORT     **********
+Classifier: SVM
+Feature selection: MI, with k=500.
+Method to make training data positive: None
+Training best score : 0.9444537148206182
+Accuracy: 0.9299552906110283
+Precision: 0.9314376339886992
+Recall: 0.9299552906110283
+F-score: 0.9306143852950293
+
+Confusion matrix: 
+[[ 84  21]
+ [ 26 540]]
+
+Classification report: 
+              precision    recall  f1-score   support
+
+         DOM       0.76      0.80      0.78       105
+       OTHER       0.96      0.95      0.96       566
+
+    accuracy                           0.93       671
+   macro avg       0.86      0.88      0.87       671
+weighted avg       0.93      0.93      0.93       671
+
+Best parameters: 
+	C: 0.1797528452395287
+	break_ties: False
+	cache_size: 200
+	class_weight: 'balanced'
+	coef0: 0.0
+	decision_function_shape: 'ovr'
+	degree: 3
+	gamma: 'scale'
+	kernel: 'linear'
+	max_iter: -1
+	probability: False
+	random_state: None
+	shrinking: True
+	tol: 0.001
+	verbose: False
+Number of support vectors per class: 
+[ 99 335]
+Support vectors: 
+  (0, 36)	1.0
+  (0, 79)	1.0
+  (0, 175)	1.0
+  (0, 208)	1.0
+  (0, 321)	1.0
+  (0, 339)	1.0
+  (0, 357)	1.0
+  (0, 432)	1.0
+  (0, 463)	1.0
+  (0, 466)	1.0
+  (1, 30)	1.0
+  (1, 43)	1.0
+  (1, 109)	1.0
+  (1, 138)	1.0
+  (1, 198)	1.0
+  (1, 230)	1.0
+  (1, 250)	1.0
+  (1, 268)	1.0
+  (1, 372)	1.0
+  (1, 377)	1.0
+  (1, 463)	1.0
+  (1, 467)	1.0
+  (2, 37)	1.0
+  (2, 46)	1.0
+  (2, 78)	1.0
+  :	:
+  (429, 381)	1.0
+  (429, 432)	1.0
+  (429, 463)	1.0
+  (430, 75)	1.0
+  (430, 79)	1.0
+  (430, 178)	1.0
+  (430, 208)	1.0
+  (430, 463)	1.0
+  (431, 46)	1.0
+  (431, 385)	1.0
+  (432, 44)	1.0
+  (432, 46)	1.0
+  (432, 79)	1.0
+  (432, 137)	1.0
+  (432, 197)	1.0
+  (432, 208)	1.0
+  (432, 216)	1.0
+  (432, 219)	1.0
+  (432, 381)	1.0
+  (432, 388)	1.0
+  (432, 432)	1.0
+  (432, 463)	1.0
+  (432, 467)	1.0
+  (432, 480)	1.0
+  (433, 463)	1.0

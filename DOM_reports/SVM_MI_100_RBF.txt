@@ -1,0 +1,94 @@
+**********        EVALUATION REPORT     **********
+Classifier: SVM
+Feature selection: MI, with k=100.
+Method to make training data positive: None
+Training best score : 0.9418998392381107
+Accuracy: 0.9225037257824144
+Precision: 0.9225037257824144
+Recall: 0.9225037257824144
+F-score: 0.9225037257824144
+
+Confusion matrix: 
+[[ 79  26]
+ [ 26 540]]
+
+Classification report: 
+              precision    recall  f1-score   support
+
+         DOM       0.75      0.75      0.75       105
+       OTHER       0.95      0.95      0.95       566
+
+    accuracy                           0.92       671
+   macro avg       0.85      0.85      0.85       671
+weighted avg       0.92      0.92      0.92       671
+
+Best parameters: 
+	C: 2.9126123435328326
+	break_ties: False
+	cache_size: 200
+	class_weight: 'balanced'
+	coef0: 0.0
+	decision_function_shape: 'ovr'
+	degree: 3
+	gamma: 'scale'
+	kernel: 'rbf'
+	max_iter: -1
+	probability: False
+	random_state: None
+	shrinking: True
+	tol: 0.001
+	verbose: False
+Number of support vectors per class: 
+[163 365]
+Support vectors: 
+  (0, 12)	1.0
+  (0, 40)	1.0
+  (0, 62)	1.0
+  (0, 89)	1.0
+  (1, 5)	1.0
+  (1, 26)	1.0
+  (1, 47)	1.0
+  (1, 70)	1.0
+  (1, 89)	1.0
+  (1, 90)	1.0
+  (2, 26)	1.0
+  (2, 68)	1.0
+  (2, 71)	1.0
+  (2, 78)	1.0
+  (2, 89)	1.0
+  (2, 97)	1.0
+  (3, 7)	1.0
+  (3, 32)	1.0
+  (3, 34)	1.0
+  (3, 40)	1.0
+  (3, 60)	1.0
+  (3, 67)	1.0
+  (3, 87)	1.0
+  (3, 89)	1.0
+  (3, 97)	1.0
+  :	:
+  (522, 6)	1.0
+  (522, 33)	1.0
+  (522, 89)	1.0
+  (523, 87)	1.0
+  (523, 97)	1.0
+  (524, 11)	1.0
+  (524, 38)	1.0
+  (524, 75)	1.0
+  (524, 89)	1.0
+  (525, 6)	1.0
+  (525, 7)	1.0
+  (525, 12)	1.0
+  (525, 25)	1.0
+  (525, 37)	1.0
+  (525, 40)	1.0
+  (525, 42)	1.0
+  (525, 76)	1.0
+  (525, 89)	1.0
+  (525, 90)	1.0
+  (525, 94)	1.0
+  (526, 89)	1.0
+  (527, 38)	1.0
+  (527, 55)	1.0
+  (527, 89)	1.0
+  (527, 90)	1.0

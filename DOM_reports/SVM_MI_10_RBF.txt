@@ -1,0 +1,94 @@
+**********        EVALUATION REPORT     **********
+Classifier: SVM
+Feature selection: MI, with k=10.
+Method to make training data positive: None
+Training best score : 0.9252945605502534
+Accuracy: 0.9210134128166915
+Precision: 0.91911122951377
+Recall: 0.9210134128166915
+F-score: 0.9198942906949941
+
+Confusion matrix: 
+[[ 75  30]
+ [ 23 543]]
+
+Classification report: 
+              precision    recall  f1-score   support
+
+         DOM       0.77      0.71      0.74       105
+       OTHER       0.95      0.96      0.95       566
+
+    accuracy                           0.92       671
+   macro avg       0.86      0.84      0.85       671
+weighted avg       0.92      0.92      0.92       671
+
+Best parameters: 
+	C: 0.29475863417885817
+	break_ties: False
+	cache_size: 200
+	class_weight: None
+	coef0: 0.0
+	decision_function_shape: 'ovr'
+	degree: 3
+	gamma: 'scale'
+	kernel: 'rbf'
+	max_iter: -1
+	probability: False
+	random_state: None
+	shrinking: True
+	tol: 0.001
+	verbose: False
+Number of support vectors per class: 
+[175 152]
+Support vectors: 
+  (0, 0)	1.0
+  (1, 1)	1.0
+  (1, 6)	1.0
+  (2, 1)	1.0
+  (3, 3)	1.0
+  (3, 8)	1.0
+  (4, 3)	1.0
+  (4, 5)	1.0
+  (5, 3)	1.0
+  (5, 8)	1.0
+  (6, 0)	1.0
+  (6, 5)	1.0
+  (7, 0)	1.0
+  (7, 1)	1.0
+  (7, 2)	1.0
+  (7, 3)	1.0
+  (7, 6)	1.0
+  (7, 8)	1.0
+  (8, 0)	1.0
+  (8, 2)	1.0
+  (9, 5)	1.0
+  (10, 1)	1.0
+  (11, 1)	1.0
+  (11, 3)	1.0
+  (11, 4)	1.0
+  :	:
+  (269, 0)	1.0
+  (270, 5)	1.0
+  (271, 0)	1.0
+  (277, 2)	1.0
+  (279, 0)	1.0
+  (279, 2)	1.0
+  (285, 8)	1.0
+  (286, 0)	1.0
+  (286, 2)	1.0
+  (287, 0)	1.0
+  (288, 0)	1.0
+  (291, 5)	1.0
+  (295, 0)	1.0
+  (300, 1)	1.0
+  (302, 0)	1.0
+  (306, 5)	1.0
+  (307, 0)	1.0
+  (310, 2)	1.0
+  (311, 0)	1.0
+  (311, 2)	1.0
+  (312, 2)	1.0
+  (313, 8)	1.0
+  (316, 5)	1.0
+  (318, 0)	1.0
+  (323, 5)	1.0
