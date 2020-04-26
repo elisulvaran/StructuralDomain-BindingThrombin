@@ -1,0 +1,47 @@
+**********        EVALUATION REPORT     **********
+Classifier: SVM
+Dimensionality reduction: tSNE, with 2 principal components.
+Method to make training data positive: None
+Training best score : 0.9821896280775275
+Accuracy: 0.7602523659305994
+Precision: 0.582218584035459
+Recall: 0.7602523659305994
+F-score: 0.65943036758138
+
+Confusion matrix: 
+[[  0 150]
+ [  2 482]]
+
+Classification report: 
+             precision    recall  f1-score   support
+
+          A       0.00      0.00      0.00       150
+          I       0.76      1.00      0.86       484
+
+avg / total       0.58      0.76      0.66       634
+
+Best parameters: 
+	C: 1.3549583750964806
+	cache_size: 200
+	class_weight: None
+	coef0: 0.0
+	decision_function_shape: 'ovr'
+	degree: 3
+	gamma: 'auto'
+	kernel: 'rbf'
+	max_iter: -1
+	probability: False
+	random_state: None
+	shrinking: True
+	tol: 0.001
+	verbose: False
+Number of support vectors per class: 
+[  39 1059]
+Support vectors: 
+[[ 18.01956367 -13.96896172]
+ [ 21.48819923  27.55657578]
+ [ -2.90889096  -1.77196515]
+ ...
+ [ -1.76960862  32.73457336]
+ [ 11.61094856  -7.65107012]
+ [-17.93825912  18.45120049]]
