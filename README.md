@@ -3,7 +3,7 @@ Repositorio que contiene los resultados de todas las simulaciones para los conju
 
 ## Materia: 
 Ciencia de datos 2020. 
-## Modulo:
+## Módulo:
 Aprendizaje de Máquina por Carlos Francisco Méndez Cruz. 
 ## Colaboradores: 
 - Alejandra Nicole Schafer Juáres Badillo
