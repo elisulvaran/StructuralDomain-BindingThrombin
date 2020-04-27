@@ -1,17 +1,16 @@
 # StructuralDomain-BindingThrombin
+Repositorio que contiene los resultados de todas las simulaciones para los conjuntos de datos de dominio estructural y de unión a la trombina. 
 
 ## Materia: 
 Ciencia de datos 2020. 
 ## Modulo:
-Aprendizaje de Máquina. 
+Aprendizaje de Máquina por Carlos Francisco Méndez Cruz. 
 ## Colaboradores: 
 - Alejandra Nicole Schafer Juáres Badillo
 - Brenda Eloisa Sánchez Pichardo 
 - Fernanda Renee García Flores 
 - Elizabeth Sulvarán Guel. 
-
-Repositorio que contiene los resultados de todas las simulaciones para los conjuntos de datos de dominio estructural y de unión a la trombina.     
-
+  
 
 
 Este repositorio contiene el escrito final con nombre "Trabajo_final-Eli_Fer_Brenda_Ale.pdf", además del material suplementario con nombre "Material_suplementario.pdf" y el HTML suplementario, donde se encuentran las gráficas interactivas en 3D, llamado "HTML_Suplementario.html".      
