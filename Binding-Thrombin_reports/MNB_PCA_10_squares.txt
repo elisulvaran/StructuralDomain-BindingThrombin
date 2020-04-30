@@ -1,0 +1,26 @@
+**********        EVALUATION REPORT     **********
+Classifier: MultinomialNB
+Dimensionality reduction: PCA, with 10 principal components.
+Method to make training data positive: squares
+Training best score : 0.9135673127291776
+Accuracy: 0.5283911671924291
+Precision: 0.6724881083643774
+Recall: 0.5283911671924291
+F-score: 0.5633233432403748
+
+Confusion matrix: 
+[[ 87  63]
+ [236 248]]
+
+Classification report: 
+             precision    recall  f1-score   support
+
+          A       0.27      0.58      0.37       150
+          I       0.80      0.51      0.62       484
+
+avg / total       0.67      0.53      0.56       634
+
+Best parameters: 
+	alpha: 0.03439365347979431
+	class_prior: None
+	fit_prior: True

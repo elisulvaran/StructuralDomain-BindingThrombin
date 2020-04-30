@@ -1,0 +1,26 @@
+**********        EVALUATION REPORT     **********
+Classifier: MultinomialNB
+Feature selection: MI, with k=200.
+Method to make training data positive: None
+Training best score : 0.9884756416972237
+Accuracy: 0.4637223974763407
+Precision: 0.6159232323995542
+Recall: 0.4637223974763407
+F-score: 0.5027289274288332
+
+Confusion matrix: 
+[[ 72  78]
+ [262 222]]
+
+Classification report: 
+             precision    recall  f1-score   support
+
+          A       0.22      0.48      0.30       150
+          I       0.74      0.46      0.57       484
+
+avg / total       0.62      0.46      0.50       634
+
+Best parameters: 
+	alpha: 5.382978136578495
+	class_prior: None
+	fit_prior: True

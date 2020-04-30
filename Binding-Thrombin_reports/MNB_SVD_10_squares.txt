@@ -1,0 +1,26 @@
+**********        EVALUATION REPORT     **********
+Classifier: MultinomialNB
+Dimensionality reduction: SVD, with 10 principal components.
+Method to make training data positive: squares
+Training best score : 0.9360921948664223
+Accuracy: 0.6309148264984227
+Precision: 0.6472067941720362
+Recall: 0.6309148264984227
+F-score: 0.6385554346523978
+
+Confusion matrix: 
+[[ 43 107]
+ [127 357]]
+
+Classification report: 
+             precision    recall  f1-score   support
+
+          A       0.25      0.29      0.27       150
+          I       0.77      0.74      0.75       484
+
+avg / total       0.65      0.63      0.64       634
+
+Best parameters: 
+	alpha: 0.3403963659289971
+	class_prior: None
+	fit_prior: True
