@@ -1,0 +1,91 @@
+**********        EVALUATION REPORT     **********
+Classifier: SVM
+Feature selection: CHI2, with k=1000.
+Method to make training data positive: None
+Training best score : 0.9399744572158365
+Accuracy: 0.9135618479880775
+Precision: 0.9094514176329475
+Recall: 0.9135618479880775
+F-score: 0.9105997445713107
+
+Confusion matrix: 
+[[ 68  37]
+ [ 21 545]]
+
+Classification report: 
+             precision    recall  f1-score   support
+
+        DOM       0.76      0.65      0.70       105
+      OTHER       0.94      0.96      0.95       566
+
+avg / total       0.91      0.91      0.91       671
+
+Best parameters: 
+	C: 0.83896478456344292
+	cache_size: 200
+	class_weight: None
+	coef0: 0.0
+	decision_function_shape: 'ovr'
+	degree: 3
+	gamma: 'auto'
+	kernel: 'linear'
+	max_iter: -1
+	probability: False
+	random_state: None
+	shrinking: True
+	tol: 0.001
+	verbose: False
+Number of support vectors per class: 
+[128 187]
+Support vectors: 
+  (0, 62)	1.0
+  (0, 113)	1.0
+  (0, 145)	1.0
+  (0, 300)	1.0
+  (0, 380)	1.0
+  (0, 389)	1.0
+  (0, 606)	1.0
+  (0, 639)	1.0
+  (0, 687)	1.0
+  (0, 777)	1.0
+  (0, 850)	1.0
+  (0, 871)	1.0
+  (0, 916)	1.0
+  (0, 920)	1.0
+  (0, 974)	1.0
+  (1, 52)	1.0
+  (1, 78)	1.0
+  (1, 192)	1.0
+  (1, 233)	1.0
+  (1, 358)	1.0
+  (1, 375)	1.0
+  (1, 424)	1.0
+  (1, 459)	1.0
+  (1, 490)	1.0
+  (1, 628)	1.0
+  :	:
+  (312, 532)	1.0
+  (312, 553)	1.0
+  (312, 628)	1.0
+  (312, 630)	1.0
+  (312, 643)	1.0
+  (312, 675)	1.0
+  (312, 916)	1.0
+  (312, 923)	1.0
+  (312, 970)	1.0
+  (312, 980)	1.0
+  (313, 57)	1.0
+  (313, 84)	1.0
+  (313, 551)	1.0
+  (313, 628)	1.0
+  (313, 763)	1.0
+  (313, 944)	1.0
+  (314, 268)	1.0
+  (314, 357)	1.0
+  (314, 389)	1.0
+  (314, 463)	1.0
+  (314, 466)	1.0
+  (314, 543)	1.0
+  (314, 628)	1.0
+  (314, 639)	1.0
+  (314, 980)	1.0

@@ -1,0 +1,91 @@
+**********        EVALUATION REPORT     **********
+Classifier: SVM
+Feature selection: CHI2, with k=50.
+Method to make training data positive: None
+Training best score : 0.9278416347381865
+Accuracy: 0.9329359165424739
+Precision: 0.9313867118776568
+Recall: 0.9329359165424739
+F-score: 0.9319857185146176
+
+Confusion matrix: 
+[[ 79  26]
+ [ 19 547]]
+
+Classification report: 
+             precision    recall  f1-score   support
+
+        DOM       0.81      0.75      0.78       105
+      OTHER       0.95      0.97      0.96       566
+
+avg / total       0.93      0.93      0.93       671
+
+Best parameters: 
+	C: 1.5454936520515867
+	cache_size: 200
+	class_weight: None
+	coef0: 0.0
+	decision_function_shape: 'ovr'
+	degree: 3
+	gamma: 'auto'
+	kernel: 'linear'
+	max_iter: -1
+	probability: False
+	random_state: None
+	shrinking: True
+	tol: 0.001
+	verbose: False
+Number of support vectors per class: 
+[125 132]
+Support vectors: 
+  (0, 7)	1.0
+  (1, 4)	1.0
+  (1, 14)	1.0
+  (1, 26)	1.0
+  (1, 38)	1.0
+  (2, 14)	1.0
+  (2, 39)	1.0
+  (2, 41)	1.0
+  (2, 48)	1.0
+  (3, 7)	1.0
+  (3, 23)	1.0
+  (3, 31)	1.0
+  (4, 7)	1.0
+  (4, 18)	1.0
+  (4, 36)	1.0
+  (5, 23)	1.0
+  (5, 31)	1.0
+  (5, 33)	1.0
+  (6, 19)	1.0
+  (6, 43)	1.0
+  (6, 47)	1.0
+  (6, 48)	1.0
+  (7, 19)	1.0
+  (7, 33)	1.0
+  (7, 36)	1.0
+  :	:
+  (247, 47)	1.0
+  (248, 18)	1.0
+  (248, 19)	1.0
+  (249, 0)	1.0
+  (249, 7)	1.0
+  (249, 18)	1.0
+  (250, 23)	1.0
+  (250, 31)	1.0
+  (250, 47)	1.0
+  (250, 48)	1.0
+  (251, 43)	1.0
+  (251, 48)	1.0
+  (252, 7)	1.0
+  (252, 18)	1.0
+  (252, 36)	1.0
+  (253, 7)	1.0
+  (253, 38)	1.0
+  (254, 14)	1.0
+  (254, 39)	1.0
+  (254, 45)	1.0
+  (255, 23)	1.0
+  (255, 31)	1.0
+  (255, 33)	1.0
+  (256, 43)	1.0
+  (256, 48)	1.0

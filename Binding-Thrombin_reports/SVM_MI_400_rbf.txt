@@ -1,0 +1,91 @@
+**********        EVALUATION REPORT     **********
+Classifier: SVM
+Feature selection: MI, with k=400.
+Method to make training data positive: None
+Training best score : 0.9884756416972237
+Accuracy: 0.6340694006309149
+Precision: 0.651804709852542
+Recall: 0.6340694006309149
+F-score: 0.6423151284225626
+
+Confusion matrix: 
+[[ 45 105]
+ [127 357]]
+
+Classification report: 
+             precision    recall  f1-score   support
+
+          A       0.26      0.30      0.28       150
+          I       0.77      0.74      0.75       484
+
+avg / total       0.65      0.63      0.64       634
+
+Best parameters: 
+	C: 9.494998119714202
+	cache_size: 200
+	class_weight: None
+	coef0: 0.0
+	decision_function_shape: 'ovr'
+	degree: 3
+	gamma: 'auto'
+	kernel: 'rbf'
+	max_iter: -1
+	probability: False
+	random_state: None
+	shrinking: True
+	tol: 0.001
+	verbose: False
+Number of support vectors per class: 
+[32 73]
+Support vectors: 
+  (0, 0)	0.0
+  (0, 1)	0.0
+  (0, 2)	0.0
+  (0, 3)	0.0
+  (0, 4)	0.0
+  (0, 5)	0.0
+  (0, 6)	0.0
+  (0, 7)	0.0
+  (0, 8)	0.0
+  (0, 9)	0.0
+  (0, 10)	0.0
+  (0, 11)	0.0
+  (0, 12)	0.0
+  (0, 13)	0.0
+  (0, 14)	0.0
+  (0, 15)	0.0
+  (0, 16)	0.0
+  (0, 17)	0.0
+  (0, 18)	0.0
+  (0, 19)	0.0
+  (0, 20)	0.0
+  (0, 21)	0.0
+  (0, 22)	0.0
+  (0, 23)	0.0
+  (0, 24)	0.0
+  :	:
+  (104, 375)	1.0
+  (104, 376)	0.0
+  (104, 377)	1.0
+  (104, 378)	1.0
+  (104, 379)	0.0
+  (104, 380)	1.0
+  (104, 381)	1.0
+  (104, 382)	1.0
+  (104, 383)	0.0
+  (104, 384)	0.0
+  (104, 385)	0.0
+  (104, 386)	1.0
+  (104, 387)	0.0
+  (104, 388)	0.0
+  (104, 389)	1.0
+  (104, 390)	0.0
+  (104, 391)	0.0
+  (104, 392)	0.0
+  (104, 393)	0.0
+  (104, 394)	0.0
+  (104, 395)	0.0
+  (104, 396)	0.0
+  (104, 397)	0.0
+  (104, 398)	0.0
+  (104, 399)	0.0

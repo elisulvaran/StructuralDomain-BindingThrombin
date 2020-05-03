@@ -1,0 +1,26 @@
+**********        EVALUATION REPORT     **********
+Classifier: MultinomialNB
+Dimensionality reduction: tSNE, with 2 principal components.
+Method to make training data positive: squares
+Training best score : 0.6830801466736511
+Accuracy: 0.6703470031545742
+Precision: 0.6166143202586376
+Recall: 0.6703470031545742
+F-score: 0.639464385540305
+
+Confusion matrix: 
+[[ 16 134]
+ [ 75 409]]
+
+Classification report: 
+             precision    recall  f1-score   support
+
+          A       0.18      0.11      0.13       150
+          I       0.75      0.85      0.80       484
+
+avg / total       0.62      0.67      0.64       634
+
+Best parameters: 
+	alpha: 1.0280823981159348
+	class_prior: None
+	fit_prior: True

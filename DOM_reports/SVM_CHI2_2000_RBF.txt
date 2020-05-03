@@ -1,0 +1,91 @@
+**********        EVALUATION REPORT     **********
+Classifier: SVM
+Feature selection: CHI2, with k=2000.
+Method to make training data positive: None
+Training best score : 0.9386973180076629
+Accuracy: 0.9284649776453056
+Precision: 0.9253557004646932
+Recall: 0.9284649776453056
+F-score: 0.9256716127778138
+
+Confusion matrix: 
+[[ 72  33]
+ [ 15 551]]
+
+Classification report: 
+             precision    recall  f1-score   support
+
+        DOM       0.83      0.69      0.75       105
+      OTHER       0.94      0.97      0.96       566
+
+avg / total       0.93      0.93      0.93       671
+
+Best parameters: 
+	C: 381.18830696719169
+	cache_size: 200
+	class_weight: None
+	coef0: 0.0
+	decision_function_shape: 'ovr'
+	degree: 3
+	gamma: 'auto'
+	kernel: 'rbf'
+	max_iter: -1
+	probability: False
+	random_state: None
+	shrinking: True
+	tol: 0.001
+	verbose: False
+Number of support vectors per class: 
+[130 273]
+Support vectors: 
+  (0, 105)	1.0
+  (0, 126)	1.0
+  (0, 208)	1.0
+  (0, 275)	1.0
+  (0, 576)	1.0
+  (0, 749)	1.0
+  (0, 767)	1.0
+  (0, 984)	1.0
+  (0, 986)	1.0
+  (0, 993)	1.0
+  (0, 1196)	1.0
+  (0, 1260)	1.0
+  (0, 1374)	1.0
+  (0, 1526)	1.0
+  (0, 1648)	1.0
+  (0, 1685)	1.0
+  (0, 1774)	1.0
+  (0, 1782)	1.0
+  (0, 1899)	1.0
+  (1, 90)	1.0
+  (1, 156)	1.0
+  (1, 355)	1.0
+  (1, 440)	1.0
+  (1, 699)	1.0
+  (1, 739)	1.0
+  :	:
+  (401, 1260)	1.0
+  (401, 1798)	1.0
+  (401, 1908)	1.0
+  (402, 38)	1.0
+  (402, 98)	1.0
+  (402, 166)	1.0
+  (402, 231)	1.0
+  (402, 296)	1.0
+  (402, 304)	1.0
+  (402, 305)	1.0
+  (402, 755)	1.0
+  (402, 913)	1.0
+  (402, 986)	1.0
+  (402, 993)	1.0
+  (402, 1076)	1.0
+  (402, 1144)	1.0
+  (402, 1164)	1.0
+  (402, 1241)	1.0
+  (402, 1245)	1.0
+  (402, 1281)	1.0
+  (402, 1384)	1.0
+  (402, 1408)	1.0
+  (402, 1752)	1.0
+  (402, 1774)	1.0
+  (402, 1809)	1.0

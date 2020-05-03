@@ -1,0 +1,91 @@
+**********        EVALUATION REPORT     **********
+Classifier: SVM
+Feature selection: MI, with k=200.
+Method to make training data positive: None
+Training best score : 0.9879518072289156
+Accuracy: 0.61198738170347
+Precision: 0.6494684905637637
+Recall: 0.61198738170347
+F-score: 0.6281008544480453
+
+Confusion matrix: 
+[[ 50 100]
+ [146 338]]
+
+Classification report: 
+             precision    recall  f1-score   support
+
+          A       0.26      0.33      0.29       150
+          I       0.77      0.70      0.73       484
+
+avg / total       0.65      0.61      0.63       634
+
+Best parameters: 
+	C: 7.118223083489905
+	cache_size: 200
+	class_weight: None
+	coef0: 0.0
+	decision_function_shape: 'ovr'
+	degree: 3
+	gamma: 'auto'
+	kernel: 'rbf'
+	max_iter: -1
+	probability: False
+	random_state: None
+	shrinking: True
+	tol: 0.001
+	verbose: False
+Number of support vectors per class: 
+[31 59]
+Support vectors: 
+  (0, 0)	0.0
+  (0, 1)	0.0
+  (0, 2)	0.0
+  (0, 3)	0.0
+  (0, 4)	0.0
+  (0, 5)	0.0
+  (0, 6)	0.0
+  (0, 7)	0.0
+  (0, 8)	0.0
+  (0, 9)	1.0
+  (0, 10)	0.0
+  (0, 11)	0.0
+  (0, 12)	0.0
+  (0, 13)	0.0
+  (0, 14)	0.0
+  (0, 15)	0.0
+  (0, 16)	0.0
+  (0, 17)	0.0
+  (0, 18)	0.0
+  (0, 19)	0.0
+  (0, 20)	0.0
+  (0, 21)	0.0
+  (0, 22)	0.0
+  (0, 23)	0.0
+  (0, 24)	0.0
+  :	:
+  (89, 175)	1.0
+  (89, 176)	0.0
+  (89, 177)	1.0
+  (89, 178)	0.0
+  (89, 179)	0.0
+  (89, 180)	0.0
+  (89, 181)	0.0
+  (89, 182)	0.0
+  (89, 183)	1.0
+  (89, 184)	0.0
+  (89, 185)	0.0
+  (89, 186)	0.0
+  (89, 187)	0.0
+  (89, 188)	0.0
+  (89, 189)	0.0
+  (89, 190)	1.0
+  (89, 191)	0.0
+  (89, 192)	1.0
+  (89, 193)	0.0
+  (89, 194)	0.0
+  (89, 195)	1.0
+  (89, 196)	0.0
+  (89, 197)	0.0
+  (89, 198)	0.0
+  (89, 199)	0.0

@@ -1,0 +1,91 @@
+**********        EVALUATION REPORT     **********
+Classifier: SVM
+Feature selection: CHI2, with k=3000.
+Method to make training data positive: None
+Training best score : 0.9367816091954023
+Accuracy: 0.9254843517138599
+Precision: 0.9260817808128652
+Recall: 0.9254843517138599
+F-score: 0.9257698975692894
+
+Confusion matrix: 
+[[ 81  24]
+ [ 26 540]]
+
+Classification report: 
+             precision    recall  f1-score   support
+
+        DOM       0.76      0.77      0.76       105
+      OTHER       0.96      0.95      0.96       566
+
+avg / total       0.93      0.93      0.93       671
+
+Best parameters: 
+	C: 0.1117826953031044
+	cache_size: 200
+	class_weight: 'balanced'
+	coef0: 0.0
+	decision_function_shape: 'ovr'
+	degree: 3
+	gamma: 'auto'
+	kernel: 'linear'
+	max_iter: -1
+	probability: False
+	random_state: None
+	shrinking: True
+	tol: 0.001
+	verbose: False
+Number of support vectors per class: 
+[112 427]
+Support vectors: 
+  (0, 105)	1.0
+  (0, 126)	1.0
+  (0, 208)	1.0
+  (0, 275)	1.0
+  (0, 665)	1.0
+  (0, 974)	1.0
+  (0, 1006)	1.0
+  (0, 1358)	1.0
+  (0, 1363)	1.0
+  (0, 1381)	1.0
+  (0, 1747)	1.0
+  (0, 1847)	1.0
+  (0, 2053)	1.0
+  (0, 2280)	1.0
+  (0, 2478)	1.0
+  (0, 2542)	1.0
+  (0, 2692)	1.0
+  (0, 2701)	1.0
+  (0, 2899)	1.0
+  (1, 90)	1.0
+  (1, 156)	1.0
+  (1, 355)	1.0
+  (1, 440)	1.0
+  (1, 872)	1.0
+  (1, 960)	1.0
+  :	:
+  (537, 2706)	1.0
+  (537, 2747)	1.0
+  (538, 38)	1.0
+  (538, 98)	1.0
+  (538, 166)	1.0
+  (538, 231)	1.0
+  (538, 296)	1.0
+  (538, 304)	1.0
+  (538, 305)	1.0
+  (538, 981)	1.0
+  (538, 1253)	1.0
+  (538, 1363)	1.0
+  (538, 1381)	1.0
+  (538, 1531)	1.0
+  (538, 1532)	1.0
+  (538, 1659)	1.0
+  (538, 1694)	1.0
+  (538, 1824)	1.0
+  (538, 1830)	1.0
+  (538, 1884)	1.0
+  (538, 2067)	1.0
+  (538, 2101)	1.0
+  (538, 2647)	1.0
+  (538, 2692)	1.0
+  (538, 2747)	1.0

@@ -1,0 +1,91 @@
+**********        EVALUATION REPORT     **********
+Classifier: SVM
+Feature selection: CHI2, with k=500.
+Method to make training data positive: None
+Training best score : 0.9450830140485313
+Accuracy: 0.9269746646795827
+Precision: 0.9236355156964842
+Recall: 0.9269746646795827
+F-score: 0.9232108938955612
+
+Confusion matrix: 
+[[ 69  36]
+ [ 13 553]]
+
+Classification report: 
+             precision    recall  f1-score   support
+
+        DOM       0.84      0.66      0.74       105
+      OTHER       0.94      0.98      0.96       566
+
+avg / total       0.92      0.93      0.92       671
+
+Best parameters: 
+	C: 145.12011529143533
+	cache_size: 200
+	class_weight: None
+	coef0: 0.0
+	decision_function_shape: 'ovr'
+	degree: 3
+	gamma: 'auto'
+	kernel: 'rbf'
+	max_iter: -1
+	probability: False
+	random_state: None
+	shrinking: True
+	tol: 0.001
+	verbose: False
+Number of support vectors per class: 
+[128 145]
+Support vectors: 
+  (0, 37)	1.0
+  (0, 81)	1.0
+  (0, 174)	1.0
+  (0, 209)	1.0
+  (0, 319)	1.0
+  (0, 336)	1.0
+  (0, 352)	1.0
+  (0, 429)	1.0
+  (0, 461)	1.0
+  (0, 464)	1.0
+  (1, 29)	1.0
+  (1, 44)	1.0
+  (1, 110)	1.0
+  (1, 141)	1.0
+  (1, 198)	1.0
+  (1, 207)	1.0
+  (1, 228)	1.0
+  (1, 247)	1.0
+  (1, 265)	1.0
+  (1, 368)	1.0
+  (1, 374)	1.0
+  (1, 461)	1.0
+  (1, 465)	1.0
+  (2, 141)	1.0
+  (2, 363)	1.0
+  :	:
+  (269, 251)	1.0
+  (269, 344)	1.0
+  (269, 436)	1.0
+  (269, 461)	1.0
+  (269, 467)	1.0
+  (269, 482)	1.0
+  (270, 81)	1.0
+  (270, 177)	1.0
+  (270, 209)	1.0
+  (270, 247)	1.0
+  (270, 360)	1.0
+  (270, 461)	1.0
+  (271, 91)	1.0
+  (271, 199)	1.0
+  (271, 247)	1.0
+  (271, 282)	1.0
+  (271, 289)	1.0
+  (271, 297)	1.0
+  (271, 330)	1.0
+  (271, 461)	1.0
+  (271, 465)	1.0
+  (271, 493)	1.0
+  (272, 33)	1.0
+  (272, 47)	1.0
+  (272, 382)	1.0
